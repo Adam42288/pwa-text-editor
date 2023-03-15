@@ -19,8 +19,8 @@ module.exports = () => {
     plugins: [
       // webpack plugin to generate an HTML5 file for you that includes all your webpack bundles in the body using script tags.
       new HtmlWebpackPlugin({
-        title: "JATE",
         template: "./index.html",
+        title: "JATE",
       }),
       // webpack plugin to generate a manifest file for your PWA.
       new InjectManifest({
