@@ -32,6 +32,8 @@ module.exports = () => {
         patterns: [
           { from: "src", to: "dist" },
           { from: "other", to: "public" },
+        ],
+      }),
 
       new WebpackPwaManifest({
         fingerprints: false,
