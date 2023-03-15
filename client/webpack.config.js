@@ -28,12 +28,6 @@ module.exports = () => {
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
-      new CopyPlugin({
-        patterns: [
-          // { from: "source", to: "dest" },
-          { from: "src", to: "dist" },
-        ],
-      }),
 
       new WebpackPwaManifest({
         fingerprints: false,
