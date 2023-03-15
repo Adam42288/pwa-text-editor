@@ -30,8 +30,8 @@ module.exports = () => {
       }),
       new CopyPlugin({
         patterns: [
+          // { from: "source", to: "dest" },
           { from: "src", to: "dist" },
-          { from: "other", to: "public" },
         ],
       }),
 
