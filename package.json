@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A text editor utilizing PWA criteria.",
   "engines": {
-    "node": "19.x"
+    "node": "19.x",
+    "npm": "9.6.2"
   },
   "main": "server.js",
   "scripts": {
